@@ -35,7 +35,7 @@ html {
 /* Links */
 a {
     color: #0055b3;
-    transition: .3s linear;
+    transition: 0.3s linear;
 }
 
 a:hover {
@@ -49,7 +49,7 @@ a:hover {
     padding: 30px 0;
     top: 0;
     z-index: 999;
-    transition: .3s linear;
+    transition: 0.3s linear;
 }
 
 .inner-width {
@@ -88,7 +88,7 @@ a:hover {
     background-color: #ffffff;
     margin: 6px 0;
     position: relative;
-    transition: .3s linear;
+    transition: 0.3s linear;
 }
 
 .navbar-menu a {
@@ -96,7 +96,7 @@ a:hover {
     font-size: 18px;
     font-weight: 500;
     margin-left: 30px;
-    transition: .3s linear;
+    transition: 0.3s linear;
 }
 
 .navbar-menu a:hover {
@@ -151,11 +151,11 @@ a:hover {
     color: #ffffff;
     font-size: 24px;
     margin: 0 6px;
-    transition: .3s linear;
+    transition: 0.3s linear;
 }
 
 .sm a:hover {
-    opacity: .7;
+    opacity: 0.7;
 }
 
 #home .buttons {
@@ -172,7 +172,7 @@ a:hover {
     border: 2px solid #20b2aa;
     padding: 14px 0;
     border-radius: 8px;
-    transition: .3s linear;
+    transition: 0.3s linear;
 }
 
 #home .buttons a:hover {
@@ -259,11 +259,11 @@ section {
     margin-right: 2px;
     color: #000000;
     font-size: 22px;
-    transition: .3s linear;
+    transition: 0.3s linear;
 }
 
 .about-sm a:hover {
-    opacity: .7;
+    opacity: 0.7;
 }
 
 /* Skills */
@@ -298,7 +298,7 @@ section {
     width: 100%;
     border-radius: 6px;
     margin-top: 6px;
-    background: rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.1);
 }
 
 .skill-bar .skill-per {
@@ -309,22 +309,6 @@ section {
     background: #4070f4;
     animation: progress 1s ease-in-out forwards;
     opacity: 0;
-}
-
-.skill-per.css {
-    width: 70%;
-}
-
-.skill-per.html {
-    width: 95%;
-}
-
-.skill-per.js {
-    width: 80%;
-}
-
-.skill-per.nodejs {
-    width: 80%;
 }
 
 @keyframes progress {
@@ -364,7 +348,8 @@ section {
 }
 
 /* Timeline */
-.timeline, .projects {
+.timeline,
+.projects {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -411,7 +396,6 @@ section {
     color: #444444;
 }
 
-/* Projects */
 .project {
     width: calc(50% - 10px);
     overflow: hidden;
@@ -453,27 +437,26 @@ section {
     font-weight: 400;
 }
 
-/* Social Media */
-.social-media {
+.contact {
     text-align: center;
 }
 
-.social-media a {
+.contact a {
     margin: 0 4px;
+    color: #000000;
 }
 
-.social-media img {
+.contact img {
     height: 70px;
     width: 70px;
     border-radius: 100%;
-    transition: .3s linear;
+    transition: 0.3s linear;
 }
 
-.social-media img:hover {
-    opacity: .7;
+.contact img:hover {
+    opacity: 0.7;
 }
 
-/* Footer */
 footer {
     background-color: #000000;
     color: #ffffff;
@@ -483,68 +466,6 @@ footer {
 
 .copyright {
     font-size: 16px;
-}
-
-/* Share Button */
-.share-btn {
-    background: linear-gradient(30deg, #3498db, #5363d8);
-    border: none;
-    font-size: 20px;
-    font-weight: 600;
-    padding: 16px 20px;
-    cursor: pointer;
-    overflow: hidden;
-    border-radius: 40px;
-    color: #ffffff;
-    position: fixed;
-    bottom: 25px;
-    left: 25px;
-    transition: .3s;
-    z-index: 97;
-}
-
-.share-sm {
-    position: absolute;
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    transform: translateY(100%);
-}
-
-.share-sm a {
-    color: #ffffff;
-}
-
-.share-btn:hover {
-    padding: 16px 10px;
-    border-radius: 40px;
-    background: linear-gradient(30deg, #5363d8, #3498db);
-}
-
-.text, .icon {
-    display: inline-block;
-    transition: .3s;
-    transition-delay: 60ms;
-}
-
-.icon {
-    margin-right: 2px;
-}
-
-.share-sm a:nth-child(2) {
-    transition-delay: 60ms;
-}
-
-.share-btn:hover .text,
-.share-btn:hover .icon,
-.share-btn:hover .share-sm a {
-    transform: translateY(-40px);
-}
-
-.share-sm a:hover {
-    opacity: .7;
 }
 
 /* Go Top Button */
@@ -579,7 +500,7 @@ footer {
         right: -100%;
         max-width: 400px;
         padding: 80px 50px;
-        transition: .3s linear;
+        transition: 0.3s linear;
     }
 
     .navbar-menu a {
@@ -648,7 +569,7 @@ footer {
     .project {
         width: 100%;
     }
-    
+
     /* Share Button */
     .share-btn {
         display: none;

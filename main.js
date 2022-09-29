@@ -33,7 +33,6 @@ class MainNavigation extends HTMLElement {
 }
 customElements.define('main-navigation', MainNavigation);
 
-
 class MainFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
