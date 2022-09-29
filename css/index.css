@@ -67,6 +67,7 @@ a:hover {
 .logo {
     width: 65px;
     height: 65px;
+    background-image: url(../assets/logo-tr.png);
     background-size: contain;
 }
 
@@ -118,15 +119,9 @@ a:hover {
 #home {
     height: 100vh;
     min-height: 500px;
+    background: url(../assets/background.jpg) no-repeat scroll center;
     background-size: cover;
     background-attachment: fixed;
-}
-
-#home img {
-    max-width: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
 }
 
 #home .inner-width {
