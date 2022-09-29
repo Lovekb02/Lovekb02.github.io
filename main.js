@@ -6,6 +6,7 @@ class MainNavigation extends HTMLElement {
             <div class="inner-width">
                 <!-- Logo -->
                 <a href="/" class="logo" title="Lovekb" alt="Logo"></a>
+                <h3 style="color: white; margin-right: auto;">　Lovekb</h3>
 
                 <!-- Menu Toggler -->
                 <button class="menu-toggler">
