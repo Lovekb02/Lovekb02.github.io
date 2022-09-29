@@ -50,7 +50,33 @@
     <script type=module src=main.js></script>
 
     <body>
-        <main-navigation></main-navigation>
+        <!-- Unique Navigation Bar -->
+        <nav class="navbar">
+            <div class="inner-width">
+                <!-- Logo -->
+                <a href="#" class="logo" title="Lovekb" alt="Logo"></a>
+                <h3 style="margin-right: auto;"><a style="color: white;" href="#">　Lovekb</a></h3>
+
+                <!-- Menu Toggler -->
+                <button class="menu-toggler">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <!-- Menu -->
+                <div class="navbar-menu">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#timeline">Timeline</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                    <a href="test.html">Test</a>
+                </div>
+            </div>
+
+            <script src="js/navigation.js"></script>
+        </nav>
         <script src="js/navigation.js"></script>
 
         <!-- Home -->
@@ -125,8 +151,8 @@
 
                 <div class="projects">
                     <!-- Personal Website -->
-                    <a href="/projects/personal" class="project">
-                        <img src="/assets/projects/personal.png" alt="Personal Website">
+                    <a href="./projects/personal" class="project">
+                        <img src="./assets/projects/personal.png" alt="Personal Website">
 
                         <div class="info">
                             <h3>Personal Website</h3>
@@ -136,7 +162,7 @@
 
                     <!-- Developer Website -->
                     <a href="#home" class="project">
-                        <img src="/assets/projects/dev.png" alt="Developer Website">
+                        <img src="./assets/projects/dev.png" alt="Developer Website">
 
                         <div class="info">
                             <h3>Developer Website</h3>
@@ -145,8 +171,8 @@
                     </a>
 
                     <!-- Links Website -->
-                    <a href="/links" class="project">
-                        <img src="/assets/projects/links.png" alt="Links Website">
+                    <a href="./links" class="project">
+                        <img src="./assets/projects/links.png" alt="Links Website">
 
                         <div class="info">
                             <h3>Links Website</h3>
@@ -155,8 +181,8 @@
                     </a>
 
                     <!-- Discord Profile Card -->
-                    <a href="/projects/discord" class="project">
-                        <img src="/assets/projects/discord.png" alt="Discord Profile Card">
+                    <a href="./projects/discord" class="project">
+                        <img src="./assets/projects/discord.png" alt="Discord Profile Card">
 
                         <div class="info">
                             <h3>Discord Profile Card</h3>
@@ -165,8 +191,8 @@
                     </a>
 
                     <!-- William's Utilities -->
-                    <a href="/projects/wu" class="project">
-                        <img src="/assets/projects/wu.png" alt="William's Utilities">
+                    <a href="./projects/wu" class="project">
+                        <img src="./assets/projects/wu.png" alt="William's Utilities">
 
                         <div class="info">
                             <h3>William's Utilities</h3>
@@ -175,8 +201,8 @@
                     </a>
 
                     <!-- Following Eyes -->
-                    <a href="/projects/eyes" class="project">
-                        <img src="/assets/projects/eyes.png" alt="Following Eyes">
+                    <a href="./projects/eyes" class="project">
+                        <img src="./assets/projects/eyes.png" alt="Following Eyes">
 
                         <div class="info">
                             <h3>Following Eyes</h3>
@@ -194,17 +220,17 @@
                 <h1 class="section-title">Social Media</h1>
 
                 <div class="social-media">
-                    <a href="/facebook"><img src="/assets/social/facebook.svg"></a>
-                    <a href="/twitter"><img src="/assets/social/twitter.svg"></a>
-                    <a href="/instagram"><img src="/assets/social/instagram.svg"></a>
-                    <a href="/reddit"><img src="/assets/social/reddit.svg"></a>
-                    <a href="/discord"><img src="/assets/social/discord.svg"></a>
-                    <a href="/snapchat"><img src="../assets/social/snapchat.svg"></a>
-                    <a href="/github"><img src="/assets/social/github.svg"></a>
-                    <a href="/youtube"><img src="/assets/social/youtube.svg"></a>
-                    <a href="/twitch"><img src="/assets/social/twitch.svg"></a>
+                    <a href="/facebook"><img src="./assets/social/facebook.svg"></a>
+                    <a href="/twitter"><img src="./assets/social/twitter.svg"></a>
+                    <a href="/instagram"><img src="./assets/social/instagram.svg"></a>
+                    <a href="/reddit"><img src="./assets/social/reddit.svg"></a>
+                    <a href="/discord"><img src="./assets/social/discord.svg"></a>
+                    <a href="/snapchat"><img src="./assets/social/snapchat.svg"></a>
+                    <a href="/github"><img src="./assets/social/github.svg"></a>
+                    <a href="/youtube"><img src="./assets/social/youtube.svg"></a>
+                    <a href="/twitch"><img src="./assets/social/twitch.svg"></a>
                     <a href="/tiktok"><img src="./assets/social/tiktok.svg"></a>
-                    <a href="/spotify"><img src="./spotify.svg"></a>
+                    <a href="/spotify"><img src="./assets/social/spotify.svg"></a>
                 </div>
             </div>
         </section>
@@ -212,6 +238,6 @@
         <main-footer></main-footer>
 
         <main-back-to-top></main-back-to-top>
-        <script src="/js/goTop.js"></script>
+        <script src="./js/goTop.js"></script>
     </body>
 </html>
