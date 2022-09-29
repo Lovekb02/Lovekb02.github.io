@@ -5,8 +5,8 @@ class MainNavigation extends HTMLElement {
         <nav class="navbar">
             <div class="inner-width">
                 <!-- Logo -->
-                <a href="/" class="logo" title="Lovekb" alt="Logo"></a>
-                <h3 style="color: white; margin-right: auto;">　Lovekb</h3>
+                <a href="/" style="background-image: url(./assets/logo-tr.png);" class="logo" title="Lovekb" alt="Logo"></a>
+                <h3 style="margin-right: auto;"><a style="color: white;" href="/">　Lovekb</a></h3>
 
                 <!-- Menu Toggler -->
                 <button class="menu-toggler">
@@ -17,11 +17,11 @@ class MainNavigation extends HTMLElement {
 
                 <!-- Menu -->
                 <div class="navbar-menu">
-                    <a href="index.html#home">Home</a>
-                    <a href="index.html#about">About</a>
-                    <a href="index.html#timeline">Timeline</a>
-                    <a href="index.html#projects">Projects</a>
-                    <a href="index.html#contact">Contact</a>
+                    <a href="/#home">Home</a>
+                    <a href="/#about">About</a>
+                    <a href="/#timeline">Timeline</a>
+                    <a href="/#projects">Projects</a>
+                    <a href="/#contact">Contact</a>
                     <a href="test.html">Test</a>
                 </div>
             </div>

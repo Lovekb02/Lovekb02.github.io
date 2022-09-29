@@ -67,7 +67,6 @@ a:hover {
 .logo {
     width: 65px;
     height: 65px;
-    background-image: url(/assets/logo-tr.png);
     background-size: contain;
 }
 
