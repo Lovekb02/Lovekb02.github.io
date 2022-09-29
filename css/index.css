@@ -363,7 +363,7 @@ section {
     transform: translateX(-50%) rotate(45deg);
 }
 
-/* Education */
+/* Timeline */
 .timeline, .projects {
     display: flex;
     justify-content: space-between;
