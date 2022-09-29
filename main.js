@@ -5,7 +5,7 @@ class MainNavigation extends HTMLElement {
         <nav class="navbar">
             <div class="inner-width">
                 <!-- Logo -->
-                <a href="/" style="background-image: url(./assets/logo-tr.png);" class="logo" title="Lovekb" alt="Logo"></a>
+                <a href="/" class="logo" title="Lovekb" alt="Logo"></a>
                 <h3 style="margin-right: auto;"><a style="color: white;" href="/">　Lovekb</a></h3>
 
                 <!-- Menu Toggler -->
