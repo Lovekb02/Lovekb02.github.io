@@ -17,7 +17,7 @@ class MainNavigation extends HTMLElement {
 
                 <!-- Menu -->
                 <div class="navbar-menu">
-                    <a href="/#home">Home</a>
+                    <a href="./#home">Home</a>
                     <a href="/#about">About</a>
                     <a href="/#timeline">Timeline</a>
                     <a href="/#projects">Projects</a>
