@@ -17,12 +17,12 @@ class MainNavigation extends HTMLElement {
 
                 <!-- Menu -->
                 <div class="navbar-menu">
-                    <a href="./#home">Home</a>
-                    <a href="./#about">About</a>
-                    <a href="./#timeline">Timeline</a>
-                    <a href="./#projects">Projects</a>
-                    <a href="./#contact">Contact</a>
-                    <a href="test.html">Test</a>
+                    <a href="./#home"><b>Home</b></a>
+                    <a href="./#about"><b>About</b></a>
+                    <a href="./#timeline"><b>Timeline</b></a>
+                    <a href="./#projects"><b>Projects</b></a>
+                    <a href="./#contact"><b>Contact</b></a>
+                    <a href="test.html"><b>Test</b></a>
                 </div>
             </div>
 
@@ -41,7 +41,7 @@ class MainFooter extends HTMLElement {
             <div class="inner-width">
                 <!-- Copyright -->
                 <div class="copyright">
-                    <b>Made with love by Lovekb</b>
+                    <b>Made with ♥ by Lovekb</b>
                 </div>
             </div>
         </footer>
