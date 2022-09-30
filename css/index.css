@@ -118,12 +118,13 @@ a:hover {
     background-color: #ffffff;
 }
 
+/* Home start */
+
 #home {
     height: 100vh;
     min-height: 500px;
     background: url(../assets/background.jpg) no-repeat scroll center;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 #home .inner-width {
@@ -180,6 +181,8 @@ a:hover {
 #home .buttons a:hover {
     background-color: #ffffff66;
 }
+
+/* Home end */
 
 section {
     padding: 100px 0;
