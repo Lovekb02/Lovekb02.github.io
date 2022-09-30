@@ -1,5 +1,10 @@
 /* 3b6fff - 2e59cc - 2548a6 - 1d3880 - 11214d */
 
+@font-face {
+    font-family: 'Sarina2';
+    src: URL('/assets/Sarina.ttf') format('truetype');
+  }
+
 * {
     margin: 0;
     padding: 0;
