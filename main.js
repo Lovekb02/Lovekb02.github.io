@@ -22,7 +22,6 @@ class MainNavigation extends HTMLElement {
                     <a href="./#timeline"><b>Timeline</b></a>
                     <a href="./#projects"><b>Projects</b></a>
                     <a href="./#contact"><b>Contact</b></a>
-                    <a href="test.html"><b>Test</b></a>
                 </div>
             </div>
 
